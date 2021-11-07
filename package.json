@@ -1,0 +1,24 @@
+{
+  "name": "rc-server",
+  "version": "0.1.0",
+  "description": "A simple WebSocket server to discover and track RC vehicles",
+  "main": "out/index.js",
+  "scripts": {
+    "start": "npx tsc && node out/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clear_logs": ""
+  },
+  "keywords": [
+    "WebSocket",
+    "WS",
+    "Simple"
+  ],
+  "author": "TSV",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "socket.io": "^4.3.1"
+  }
+}
